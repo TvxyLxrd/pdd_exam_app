@@ -1,0 +1,21 @@
+name: pdd_exam_app
+description: Приложение для подготовки к экзамену по ПДД
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.13.0
+  firebase_auth: ^5.6.0
+  cloud_firestore: ^4.7.0
+  provider: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
